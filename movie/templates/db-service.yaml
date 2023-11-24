@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: postgres-service-movie
 spec:
+  clusterIP: None
   selector:
     app: postgres-movie
   ports:
     - protocol: TCP
-      port: 5002
-      targetPort: 5432
+      port: 5432
