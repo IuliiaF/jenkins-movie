@@ -11,7 +11,7 @@ image:
   tag: latest
 
 db:
-  uri: postgresql://movie_db_username:movie_db_password@postgres-service-movie/movie_db_dev
+  uri: postgresql://movie_db_username:movie_db_password@postgres-service-movie:5002/movie_db_dev
 
 cast:
   url: http://cast-service:8002/api/v1/casts/
